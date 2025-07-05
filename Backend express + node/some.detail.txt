@@ -1,0 +1,42 @@
+
+
+✅ Main Difference: slice() vs splice()
+🔹 slice(start, end)
+Sirf copy karta hai.
+
+Original array change nahi hota.
+
+start se shuru hota hai, lekin end tak pohochta hai, shamil nahi karta.
+
+Example: array.slice(1, 3) → index 1 aur 2 lega, 3 nahi.
+
+🔸 splice(start, deleteCount, ...items)
+Array ke andar se remove / replace / insert karta hai.
+
+Original array change ho jaata hai.
+
+start se kaatna shuru karta hai, deleteCount batata hai kitne items hataane hain.
+
+Aakhir mein agar koi items diye jaayein to unhe insert bhi kar deta hai.
+
+
+-----------------------------------------------------------------------------------------
+
+story of post request ya kis trah kam krti ha .
+
+User form submit karta hai — user kuch data form mein fill karta hai aur submit button dabata hai.
+
+Data request body mein chala jata hai — browser ya client side se data HTTP POST request ke req.body mein jata hai.
+
+Server (Express) us data ko receive karta hai — Express.js req.body ke zariye us data ko access karta hai (iska matlab hai data server ko mil gaya).
+
+Data ko store karta hai — phir server us data ko ya to memory (array) mein ya database mein save kar deta hai.
+*/
+
+--------------------------------------------------------------------------
+
+
+
+
+
+
